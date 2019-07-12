@@ -1,0 +1,638 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Header Part Starts*/
+
+header {
+height: 80px;
+margin: 0px auto;
+width: 100%;
+float: left;
+
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 20%;
+	height: 80px;
+	float: left;
+}
+
+.logo img {
+	width: 150px;
+	display: block;
+
+}
+.menu {
+	width: 55%;
+	height: 80px;
+	float: left;
+}
+
+nav ul {
+
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 25px 25px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 20px;
+
+}
+.social-link {
+	width: 25%;
+	height: 80px;
+	float: left;
+	text-align: center;
+}
+
+.social-link ul {
+	list-style: none;
+	margin: 10px auto;
+}
+
+.social-link ul li {
+	margin: 12px 20px;
+	display: inline-block;
+}
+
+.social-link ul li a {
+
+}
+
+.fa.fa-facebook {
+	background-color: #3b5998;
+	color: white;
+	padding: 6px;
+    font-size: 18px;
+}
+
+.fa.fa-twitter {
+	background-color: #38a1f3;
+	color: white;
+	padding: 6px;
+    font-size: 18px;
+}
+
+.fa.fa-linkedin {
+	background-color: #0077b5;
+	color: white;
+	padding: 6px;
+    font-size: 18px;
+}
+
+.fa.fa-youtube-play {
+	background-color: #c4302b;
+	color: white;
+	padding: 6px;
+    font-size: 18px;
+}
+
+/* Header Part End*/
+
+
+
+/* Banner Part Starts*/
+
+.banner-sec {
+
+	width: 100%;
+	height: 405px;
+	margin: 0px auto;
+	float: left;
+}
+
+.banner {
+	width: 1140px;
+	height: 400px;
+	margin: 0px auto;
+	background-image: url(../img/banner-1.jpg)
+
+
+}
+
+.offer {
+
+	width: 350px;
+	height: 280px;
+	background-color: #a0ff007d;
+	margin: 5% 220px;
+	float: left;	
+}
+
+.h-tex {
+
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 50px auto;
+	color: #021665;
+}
+
+.text-two {
+	text-align: center;
+	font-size: 15px;
+	font-family: verdana;
+	margin: -40px auto;
+	font-weight: bold;
+
+}
+
+.doner {
+	width: 130px;
+	height: 25px;
+	background-color: #07ff00;
+	float: left;
+	margin: 50px 20px;
+	
+	
+
+}
+
+.tenor {
+	width: 130px;
+	height: 25px;
+	background-color: #07ff00;
+	float: left;
+	margin: 50px 25px;
+
+}
+
+.b-a-doner {
+	text-align: center;
+	color: #021665;
+	margin: 4px auto;
+	text-transform: uppercase;
+
+}
+.b-a-tenor {
+	text-align: center;
+	color: #021665;
+	margin: 4px auto;
+	text-transform: uppercase;
+}
+
+.b-a-doner a {
+	text-decoration: none;
+}
+
+.b-a-tenor a {
+	text-decoration: none;
+}
+
+/* Banner Part End*/
+
+
+
+
+/*Details Section Starts */
+
+.details-sec {
+	width: 100%;
+	height: 275px;
+	margin: 0px auto;
+	float: left;
+	
+}
+
+.details-sec-container {
+	width: 1140px;
+	height: 275px;
+	margin: 0px auto;
+}
+
+.concept {
+	width: 25%;
+	height: 275px;
+	float: left;
+	text-align: center;
+}
+
+.fa.fa-check {
+	background-color: #2874A6;
+	color: white;
+	padding: 15px;
+    font-size: 35px;
+    border-radius: 360px;
+  	margin: 5px auto;
+
+}
+
+.concept h1 {
+	margin: 15px auto;
+}
+
+.concept p {
+	font-size: 17px;
+	padding: 15px;
+	text-align: justify;
+}
+
+
+.local-loan {
+	width: 25%;
+	height: 275px;
+	float: left;
+	text-align: center;
+
+}
+
+.fa.fa-map-marker {
+	background-color: #196F3D;
+	color: white;
+	padding: 15px;
+    font-size: 35px;
+    border-radius: 360px;
+  	margin: 5px auto;
+
+ }
+
+ .local-loan h1 {
+	margin: 15px auto;
+}
+
+.local-loan p {
+	font-size: 17px;
+	padding: 15px;
+	text-align: justify;
+}
+
+
+.better-fnc {
+	width: 25%;
+	height: 275px;
+	float: left;
+	text-align: center;
+
+}
+
+.fa.fa-money {
+	background-color: #43DF1D;
+	color: white;
+	padding: 15px;
+    font-size: 35px;
+    border-radius: 360px;
+  	margin: 5px auto;
+ }
+
+ .better-fnc h1 {
+	margin: 15px auto;
+}
+
+.better-fnc p {
+	font-size: 17px;
+	padding: 15px;
+	text-align: justify;
+}
+
+.sgn-up {
+	width: 25%;
+	height: 275px;
+	float: left;
+	text-align: center;
+
+}
+
+.fa.fa-user-plus {
+	background-color: #5EE804;
+	color: white;
+    padding: 15px;
+    font-size: 35px;
+  	border-radius: 360px;
+  	margin: 5px auto;
+ }
+
+ .sgn-up h1 {
+	margin: 15px auto;
+}
+
+.sgn-up p {
+	font-size: 17px;
+	padding: 15px;
+	text-align: justify;
+}
+
+.read-more {
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #67D023;
+	color: white;
+	padding: 5px 20px;
+}
+
+
+/*Details Section Starts */
+
+
+
+
+
+/*Investment Section Starts */
+
+.investment {
+	width: 100%;
+	height: 325px;
+	margin: 0px auto;
+	float: left;
+	
+}
+
+.invst-sec {
+	width: 1140px;
+	height: 305px;
+	margin: 0 auto;
+	background-color: white; 
+}
+
+.invst-one {
+	width: 35%;
+	height: 300px;
+	margin: 0 7%;
+	background-color: #CCDEC0;
+	float: left;
+	text-align: center;
+
+}
+
+.invst-two {
+	width: 35%;
+	height: 300px;
+	margin: 0 7%;
+	background-color: #CCDEC0;
+	float: left;
+	text-align: center;
+}
+
+.invst-head {
+	text-align: center;
+	padding: 30px;
+}
+
+.invst-descrp {
+	margin: 10px 50px;
+	list-style-type: none;
+	font-size: 16px;
+	text-align: left;
+}
+
+.fa.fa-dot-circle-o {
+color: green;
+padding: 0px;
+font-size: 25px;
+margin: 5px 5px;
+
+}
+
+.become {
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #67D023;
+	color: white;
+	padding: 5px 20px;
+	text-transform: uppercase;
+}
+
+
+/*Investment Section End*/
+
+
+
+/*Blog Section Starts */
+
+.blog {
+	width: 100%;
+	float: left;
+	height: 320px;
+	margin: 0 auto;
+	
+}
+
+.blog-container {
+	width: 1140px;
+	height: 320px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.blog h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+.blog-one {
+	width: 35%;
+	height: 320px;
+	margin: 5px 7%;
+	float: left;
+	text-align: left;
+}
+
+
+.blog-one h2 {
+	font-size: 28px;
+	color: #070278;
+	margin: 5px 10px;
+	font-family: calibri;
+}
+
+.blog-two {
+	width: 35%;
+	height: 320px;
+	margin: 5px 7%;
+	float: left;
+	text-align: left;
+	
+}
+
+
+.blog-head {
+	font-size: 28px;
+	color: #070278;
+	margin: 5px 10px;
+	font-family: calibri;
+}
+
+.blog-para {
+	font-family: calibri;
+}
+
+.blog-read-more {
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #67D023;
+	color: white;
+	padding: 5px 20px;
+}
+
+
+
+/*Blog Section End */
+
+
+
+
+/* Portfolio Section Start */
+
+.portfolio {
+	width: 100%;
+	height: 220px;
+	margin: 0 auto;
+	float: left;
+}
+
+.portf-container {
+	width: 1140px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #BFC9CA;
+	text-align: center;
+
+}
+
+.portf-container h2 {
+	margin: 2px;
+}
+
+/* Portfolio Section End */
+
+
+
+
+/* Trust Pilot Section Start */
+
+.trust-pilot {
+	width: 100%;
+	height: 220px;
+	margin: 0 auto;
+	float: left;
+}
+
+.trustp-container {
+	width: 1140px;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.trustp-container h1 {
+	margin: 20px 0px;
+}
+
+.fa.fa-star {
+	color: green;
+	font-size: 35px;
+	width: 45px;
+}
+
+.fa.fa-star-o {
+	font-size: 40px;
+	background-color: green;
+	color: white;
+	width: 50px;
+	height: 50px;
+	margin: 5px 2px;
+	text-decoration: none;
+
+}
+
+
+/* Trust Pilot Section End */
+
+
+/* Mention Section Start */
+
+.mention {
+	width: 100%;
+	height: 250px;
+	margin: 0 auto;
+	float: left;
+}
+
+.mention-container {
+	width: 1140px;
+	height: 240px;
+	margin: 0 auto;
+	background-color: #BDC3C7;
+
+}
+
+.mention-container h1 {
+	text-align: center;
+
+}
+
+.m-one {
+	width: 15%;
+	height: 170px;
+	margin: 15px 28px;
+	background-color: yellow;
+	float: left;
+
+}
+
+.m-one h1 {
+	text-align: center;
+}
+
+/* Mention Section End */
+
+
+
+/* Footer Section Start */
+
+footer {
+	width: 100%;
+	height: 110px;
+	margin: 0 auto;
+	float: left;
+}
+
+.footer-container {
+	width: 1140px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #060435;
+
+}
+
+.foot-one {
+	width: 50%;
+	height: 90px;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+
+}
+
+.foot-one p {
+	padding: 20px;
+	color: white;
+}
+
+.foot-two p {
+	padding: 20px;
+	color: white;
+}
+
+.foot-two {
+	width: 50%;
+	height: 90px;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+
+
+
+/* Footer Section End */
